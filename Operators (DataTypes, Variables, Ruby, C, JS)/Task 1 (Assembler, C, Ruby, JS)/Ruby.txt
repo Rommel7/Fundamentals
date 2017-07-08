@@ -1,0 +1,12 @@
+Ruby 
+
+1995-ci ildə Yapon Xyukixiro Matsumoto tərəfindən yaradılmışdır. Yüksək səviyyəli proqramlaşdırma dilidir. OS dən asıllıqı olmayan, yüksəkdəqiqlik imkanlarına malikdir.
+Sintaksisi Perl və Eiffel-ə yaxındır. Bəzi xüsusiyyətləri isə Python, Lips, Dylan və Klu dan götürülmüşdür.
+Dilin interpretatorunun krosplaformalı realizasiyası tamamən azaddır.
+
+Avantaj:
+1. Lokanik və sadə sintaksis.
+2. Əslində metod olan opreatorların aşkar edilməsi.
+3. Avtomatik bag yığını.
+4. OS dən asılı deyil.
+5. Xeyli platformalara daşınılıb. Linuxda işlənsə də, Unix, DOS, Windows, MAC və s. sistemlərdə də işləyir.

@@ -1,0 +1,19 @@
+1) Deyişən (Variable) nədir?
+
+
+-Dəyişən imperativ proqramlaşdırmada - adlandırma, adresat və ya başqa sözlə yaddaş oblastı kimi qeyd oluna bilər. 
+Harda ki, adresatı data-ya ulaşmağ üçün istifadə etmək olar. Dəyişəndə yerləşən data (yəni verilən adresdə) bu dəyişənin mənası adlanır.
+-Dəyişənlər bizim kompyuterin yaddaş locationuna verdiyimiz adlardır, hansıları ki biz kompyuter proqramında dəyişənin mənasını saxlamaq üçün istifadə edirik.
+Məsələn tutaq ki siz iki dəyişəni (10 və 20) yaddaşda saxlamaq və daha sonradan onlardan istifadə etmək istəyirsiz.
+Aşağıdakı 3 elementar addımla bunu yerinə yetirmmək olar:
+1. Uyğun olan ada görə dəyişəni yaradırıq.
+2. Dəyişənin dəyərini bunlarda yaddaşda saxlayırıq.
+3. Dəyişənənin yaddaşından istifadə edəcəyimiz qiymətləri alırıq.
+Dəyişənin yaradılması müxtəlif dillərdə müxtəlif üsullarnan olur. C dilində buna declaring variables (dəyişənin ifa olunması) deyilir.
+C dilində dəyişənin yaradılmasının yolu belə olur:
+#include <stdio.h>
+
+main() {
+   int a;
+   int b;
+}

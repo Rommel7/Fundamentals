@@ -1,0 +1,27 @@
+C
+
+1972-ci ildə Dennis Ritçi və Ken Tomson tərəfindən Bell Labs labaratoriyaarında yaradılmışdır. 
+C adı İngilis əlifbasının 3-cü hərifinən götürülüb və onu B dilindən törəmə kimi sayıllar əlifbanın 2-ci hərifi.
+Əsas məqsədi UNİX opertiv sisteminin yaradılması olmasına baxmayaraq daha sonra digər platformalarda da daşındı. 
+C dili əsasında C++ C# Java və Objective-C dilləri yaradıldı və onun sitaksisi bu dillər üçün əsas oldu.
+Dilin yaranması haqqında bir sıra heyakalər vardır. Onlardan biri "C yaradıcılarının kompyuter oyunlarına həvəsli olurlar. 
+Buna nümunə kimi Asteroids  oynunu qeyd etək olar. Onlar bu oyunu kompaniyanın əsas serverində çoxdan oynayırdılar. Bu serverdə kifayət qədər güclü deyildi və 100ə yaxın kompyuteri təmin edirdi.
+Tompsonan Ritçi hesab etdilər ki onların oyunu kifayət qədər funksional deyildi və onları oyunu ofisdə boş olan PDP-7 keçirməyə qərara aldırlar. Ancaq bu mini-kompyuterin operativ sistemi yox idi və onlar də bu sistemi yazmaq qərarına gəldirəl. 
+Daha sonra isə onlar bu operativ sistemi PDP-11 ofis komyuterinə keçirmək qərarına gəldilər lakin bu çox çətin idi çünkü sistemin kodu tamamilə Assembler dilində yazılmışdır. Təklif olundu ki hansısa digər yüksək səviyyəli bir dil vasitəsindən istifadəo olunsun OS i bir kompdan digərinə rahat ötürmək üçün.
+Bunun üçün istifadə ediləcək olan B dilinin funksionalı çatışmırdı və onlar C dilini yaratdı.
+
+Dilin avantajları:
+1. Daşınla bilməsi.
+2. Yüksək sürətli platformaların yazılması.
+3. Güclü struktura malik olmasına.
+4. Kodun kompaktlığı.
+
+Dezavantajlar:
+1. Kifayət qədər kontrol olmasa, düzəldilməsi çətin olan problemlər yaradır.
+
+Platformalar:
+
+Emscripten — компилятор из LLVM-байтокода (например, полученный из C++) в JavaScript.
+Flascc (Alchemy)— компилятор из Си/C++ в ActionScript Virtual Machine (AVM2). Позволяет использовать Си-библиотеки в Flash - и Adobe AIR-приложениях.
+Clue — компилятор из ANSI Си в Lua, JavaScript, Perl, Java, Common Lisp.
+AMPC — компилятор из Си в виртуальную машину Java.

@@ -1,0 +1,66 @@
+5) Şərt operatorları hansılardır?
+
+
+Consider a situation where we create two variables and assign them some values as follows −
+
+		A = 20
+		B = 10
+Here, it is obvious that variable A is greater than B in values. 
+So, we need the help of some symbols to write such expressions which are called relational expressions. 
+If we use C programming language, then it will be written as follows −
+
+		(A > B)
+Here, we used a symbol > and it is called a relational operator and in their simplest form, they produce Boolean results which means the result will be either true or false. 
+Similarly, a programming language provides various relational operators. 
+The following table lists down a few of the important relational operators available in C programming language. 
+Assume variable A holds 10 and variable B holds 20, then −
+
+	Operator					Description																Example
+	==		Checks if the values of two operands are equal or not, if yes then condition becomes true.							(A == B) is not true.
+	!=		Checks if the values of two operands are equal or not, if values are not equal then condition becomes true.			(A != B) is true.
+	>		Checks if the value of left operand is greater than the value of right operand, if yes then condition becomes true.		(A > B) is not true.
+	<		Checks if the value of left operand is less than the value of right operand, if yes then condition becomes true.		(A < B) is true.
+	>=		Checks if the value of left operand is greater than or equal to the value of right operand, if yes then condition becomes true.	(A >= B) is not true.
+	<=		Checks if the value of left operand is less than or equal to the value of right operand, if yes then condition becomes true.	(A <= B) is true.
+	
+Here, we will show you one example of C Programming which makes use of if conditional statement. 
+Though this statement will be discussed later in a separate chapter, but in short, we use if statement to check a condition and if the condition is true, then the body of if statement is executed, otherwise the body of if statement is skipped.
+
+#include <stdio.h>
+
+main() {
+
+   int a, b;
+   
+   a = 10;
+   b = 20;
+   
+   /* Here we check whether a is equal to 10 or not */
+   if( a == 10 ) {
+	
+      /* if a is equal to 10 then this body will be executed */
+      printf( "a is equal to 10\n");
+   }
+   
+   /* Here we check whether b is equal to 10 or not */
+   if( b == 10 ) {
+	
+      /* if b is equal to 10 then this body will be executed */
+      printf( "b is equal to 10\n");
+   }
+   
+   /* Here we check if a is less b than or not */
+   if( a < b ) {
+	
+      /* if a is less than b then this body will be executed */
+      printf( "a is less than b\n");
+   }
+   
+   /* Here we check whether a and b are not equal */
+   if( a != b ) {
+	
+      /* if a is not equal to b then this body will be executed */
+      printf( "a is not equal to b\n");
+   }
+}
+	

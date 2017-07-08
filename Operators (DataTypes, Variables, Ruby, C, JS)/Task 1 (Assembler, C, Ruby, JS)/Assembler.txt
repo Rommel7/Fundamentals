@@ -1,0 +1,13 @@
+Assembler
+
+Assembler komandalardan ibar?t olan asag? s?viyy?li proqramlasd?rma dilidir. Bu dil 1949-ci ild? 68 il ?vv?l yaranm?sd?r.
+1950-ci ill?rd? proqram t?minat?na t?l?b xeyli artm?sd?r lakin proqramlar cox h?cmli (yuk?, ag?r) al?n?rd?. Onlar?n haz?rlamaq ucun h?dinn?n cox kod yaz?l?rd?. 
+O vaxt?n t?l?bl?ri cox sad? olmas?na v? proqramlar?n elementar isl?ri gorm?sin? baxmayaraq proqramlar cox qar?s?q v? c?tin isl?yirdil?r.
+Bu problemin h?lli Assmeler dili il? cozuldu v? indi effektiv proqram yaratmaq ucun mas?n kodundan yox assembler dilind? istifad? olunurdu.
+Assembler dilind?n sonra insanlar mas?n kodlar?ndan yox mnemonik kodlar?ndan istafad?y? baslad?lar.
+Bu dilin avantajlar?:
+1. Bu dild? ?n tez v? kompakt kod yazmaq olar.
+2. Konkret platforma ucun maksimal isl?k v? effektiv proqram yaratmaq olar.
+3. Assembler dili BIOS yaratmaq ucun istifad? olunur.
+4. Assembler vasit?sil? driverl?rid? yaz?rlar.
+5. Assembler dili vasit?sil? cox vaxt mas?ndan as?l? proqram komplyatorlar?n?n v? yuks?k s?viyy?li dill?rin interpretatorlar? yarad?l?r.

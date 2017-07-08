@@ -1,0 +1,20 @@
+2) Ən çox istifadə olunan məlumat növlərini izahlı şəkildə yazın.
+
+
+Data types are used everywhere in a programming language like C#. 
+Because it's a strongly typed language, you are required to inform the compiler about which data types you wish to use every time you declare a variable, as you will see in the chapter about variables. 
+In this chapter we will take a look at some of the most used data types and how they work. 
+
+*bool is one of the simplest data types. It can contain only 2 values - false or true. 
+The bool type is important to understand when using logical operators like the if statement. 
+
+*int is short for integer, a data type for storing numbers without decimals. 
+When working with numbers, int is the most commonly used data type. 
+Integers have several data types within C#, depending on the size of the number they are supposed to store. 
+
+*string is used for storing text, that is, a number of chars. In C#, strings are immutable, which means that strings are never changed after they have been created. 
+When using methods which changes a string, the actual string is not changed - a new string is returned instead.
+ 
+*char is used for storing a single character. 
+
+*float is one of the data types used to store numbers which may or may not contain decimals.
